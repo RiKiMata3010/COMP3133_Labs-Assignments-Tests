@@ -1,0 +1,15 @@
+{
+  "name": "lab02_101336759_comp3133",
+  "version": "1.0.0",
+  "description": "Lab02 for Fullstack Development 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phoenix Armand Ani",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
