@@ -19,28 +19,28 @@ describe('Subtraction', function(){
         let result = sub(7, 7);
         assert.equal(result, 0)
     })
-    it('function should add values', function(){
+    it('function should subtract values', function(){
         let result = sub(7, 7);
         assert.equal(result, 1)
     })
 })
 describe('Multiplication', function(){
-    it('function should subtract values', function(){
-        let result = sub(7, 7);
-        assert.equal(result, 0)
+    it('function should multiply values', function(){
+        let result = mul(7, 7);
+        assert.equal(result, 49)
     })
-    it('function should add values', function(){
-        let result = sub(7, 7);
-        assert.equal(result, 1)
+    it('function should multiply values', function(){
+        let result = mul(7, 7);
+        assert.equal(result, 38)
     })
 })
-describe('Subtraction', function(){
+describe('Division', function(){
     it('function should subtract values', function(){
-        let result = sub(7, 7);
-        assert.equal(result, 0)
+        let result = div(7, 7);
+        assert.equal(result, 1)
     })
     it('function should add values', function(){
-        let result = sub(7, 7);
-        assert.equal(result, 1)
+        let result = div(7, 7);
+        assert.equal(result, 2)
     })
 })
